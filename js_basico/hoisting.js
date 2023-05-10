@@ -12,6 +12,20 @@ var miNombre = "Elbert";
 hey ();
 
 function hey() {
-    console.log("Hola " miNombre);
+    console.log("Hola " + miNombre);
 }
 /* Como el ejemplo anterior lo indica, se inicializa la funcion luego de llamarla */
+var a = 20;
+var b = a + "";
+ console.log(b);
+ /* estos ejemplos verificar los tipos de variable con typeof  */
+
+ typeof b
+
+ var c = string(a);
+
+ typeof c
+
+ var d = Number(b);
+
+ typeof d
